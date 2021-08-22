@@ -1,0 +1,3 @@
+﻿1. GreeterService is configured to use gRPC HTTP API that means client can invoke service like normal HTTP API, for more information: https://docs.microsoft.com/en-us/aspnet/core/grpc/httpapi?view=aspnetcore-5.0
+2. TodoGrpcService is configured to use gRPC Web that means data exchange while calling service method is in binary format. Client apps need to generate something from *.proto files. 
+	For more info: https://docs.microsoft.com/en-us/aspnet/core/grpc/browser?view=aspnetcore-5.0
